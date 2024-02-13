@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "gen_ais",
+  "info": {
+    "singularName": "gen-ai",
+    "pluralName": "gen-ais",
+    "displayName": "GEN AI",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HeaderText": {
+      "type": "string"
+    },
+    "card": {
+      "type": "dynamiczone",
+      "components": [
+        "title.title"
+      ]
+    }
+  }
+}
